@@ -1,6 +1,6 @@
 import './App.css'
 import Inventory from './assets/Elements/inventoryManagement'
-import NewDashboard from './assets/Elements/NewDashboard'
+import Dashboard from './assets/Elements/NewDashboard'
 import Employment from './assets/Elements/NewEmployment'
 import Expenses from './assets/Elements/NewExpense'
 import StockManagement from './assets/Elements/StockManagement'
@@ -16,7 +16,7 @@ function App() {
       <Inventory />
       <Expenses />
       <Employment />
-      <NewDashboard />
+      <Dashboard />
       <StockManagement />
     </>
   );
